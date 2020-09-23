@@ -1,0 +1,383 @@
+[Root]
+Most Recent Package=Standard Setup Package 2
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\Paul\TEMP\CD\Install Files
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+User.DLL=
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+C:\WINNT\system32\msdxm.ocx=
+C:\WINNT\system32\Macromed\Flash\swflash.ocx=
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+
+[Package|Standard Setup Package 1|Files Added]
+
+[Package|Standard Setup Package 1|Files Removed]
+
+[Package|Standard Setup Package 1|Files In Project]
+D:\Paul\TEMP\CD\Internet Browser Source Code\IBv11.exe=Yes
+C:\WINNT\system32\MSVBVM60.dll=Yes
+C:\WINNT\system32\OleAut32.dll=Yes
+C:\WINNT\system32\OlePro32.dll=Yes
+C:\WINNT\system32\ASYCFILT.DLL=Yes
+C:\WINNT\system32\StdOle2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINNT\system32\MSCOMCTL.OCX=Yes
+C:\WINNT\system32\Macromed\Flash\swflash.ocx=Yes
+C:\WINNT\system32\MSWINSCK.OCX=Yes
+C:\WINNT\system32\COMCT332.OCX=Yes
+C:\WINNT\system32\COMDLG32.OCX=Yes
+C:\WINNT\system32\RICHTX32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINNT\system32\MSSTDFMT.DLL=Yes
+C:\WINNT\system32\MSINET.OCX=Yes
+C:\WINNT\system32\msdxm.ocx=Yes
+C:\WINNT\system32\comctl32.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+D:\Paul\TEMP\CD\Internet Browser Source Code\IBv11.exe=$(AppPath)
+C:\WINNT\system32\MSVBVM60.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\OleAut32.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\OlePro32.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\StdOle2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINNT\system32\Macromed\Flash\swflash.ocx=$(WinSysPath)
+C:\WINNT\system32\MSWINSCK.OCX=$(WinSysPath)
+C:\WINNT\system32\COMCT332.OCX=$(WinSysPath)
+C:\WINNT\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINNT\system32\RICHTX32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINNT\system32\MSINET.OCX=$(WinSysPath)
+C:\WINNT\system32\msdxm.ocx=$(WinSysPath)
+C:\WINNT\system32\comctl32.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+D:\Paul\TEMP\CD\Internet Browser Source Code\IBv11.exe=No
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=Internet Browser v1.10
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=Internet Browser v1.10
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|Internet Browser v1.10]
+Icon1=IBv11.exe
+Title1=Internet Browser v1.10
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=D:\Paul\TEMP\CD\Install Files
+ProjectFolder=D:\Paul\TEMP\CD\Internet Browser Source Code
+ServerSideCab=
+File1=D:\Paul\TEMP\CD\Install Files\setup.exe
+File2=D:\Paul\TEMP\CD\Install Files\Setup.Lst
+File3=D:\Paul\TEMP\CD\Install Files\IBv11.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Dep File 1|Root]
+SubWizProgID=PDWizard.DepPkgSubWiz
+BuildFolder=D:\Paul\TEMP\CD\Install Files
+
+[Package|Dep File 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Dep File 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Dep File 1|Files Found]
+
+[Package|Dep File 1|Files Released]
+User.DLL=
+
+[Package|Dep File 1|Missing Dependency Information]
+C:\WINNT\system32\msdxm.ocx=
+C:\WINNT\system32\Macromed\Flash\swflash.ocx=
+C:\WINNT\system32\swflash.ocx=
+
+[Package|Dep File 1|Out-of-Date Dependency Information]
+
+[Package|Dep File 1|Files Added]
+D:\Paul\TEMP\CD\Internet Browser Source Code\Bookmarks.txt=
+D:\Paul\TEMP\CD\Internet Browser Source Code\TIPOFDAY.txt=
+D:\Paul\TEMP\CD\Internet Browser Source Code\history_backup.txt=
+D:\Paul\TEMP\CD\Internet Browser Source Code\intro.swf=
+D:\Paul\TEMP\CD\Internet Browser Source Code\READ_ME.txt=
+D:\Paul\TEMP\CD\Internet Browser Source Code\history.txt=
+
+[Package|Dep File 1|Files Removed]
+
+[Package|Dep File 1|Files In Project]
+D:\Paul\TEMP\CD\Internet Browser Source Code\IBv11.exe=Yes
+C:\WINNT\system32\MSVBVM60.dll=Yes
+C:\WINNT\system32\OleAut32.dll=Yes
+C:\WINNT\system32\OlePro32.dll=Yes
+C:\WINNT\system32\ASYCFILT.DLL=Yes
+C:\WINNT\system32\StdOle2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINNT\system32\MSCOMCTL.OCX=Yes
+C:\WINNT\system32\MSWINSCK.OCX=Yes
+C:\WINNT\system32\COMCT332.OCX=Yes
+C:\WINNT\system32\COMDLG32.OCX=Yes
+C:\WINNT\system32\RICHTX32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINNT\system32\MSSTDFMT.DLL=Yes
+C:\WINNT\system32\MSINET.OCX=Yes
+C:\WINNT\system32\msdxm.ocx=Yes
+C:\WINNT\system32\comctl32.ocx=Yes
+C:\WINNT\system32\swflash.ocx=Yes
+D:\Paul\TEMP\CD\Internet Browser Source Code\Bookmarks.txt=Yes
+D:\Paul\TEMP\CD\Internet Browser Source Code\TIPOFDAY.txt=Yes
+D:\Paul\TEMP\CD\Internet Browser Source Code\history_backup.txt=Yes
+D:\Paul\TEMP\CD\Internet Browser Source Code\intro.swf=Yes
+D:\Paul\TEMP\CD\Internet Browser Source Code\READ_ME.txt=Yes
+D:\Paul\TEMP\CD\Internet Browser Source Code\history.txt=Yes
+
+[Package|Dep File 1|Configure Registry Files]
+Applicable=No
+
+[Package|Dep File 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Dep File 1|Install Locations]
+D:\Paul\TEMP\CD\Internet Browser Source Code\IBv11.exe=$(AppPath)
+C:\WINNT\system32\MSVBVM60.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\OleAut32.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\OlePro32.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\StdOle2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINNT\system32\Macromed\Flash\swflash.ocx=$(WinSysPath)
+C:\WINNT\system32\MSWINSCK.OCX=$(WinSysPath)
+C:\WINNT\system32\COMCT332.OCX=$(WinSysPath)
+C:\WINNT\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINNT\system32\RICHTX32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINNT\system32\MSINET.OCX=$(WinSysPath)
+C:\WINNT\system32\msdxm.ocx=$(WinSysPath)
+C:\WINNT\system32\comctl32.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\WINNT\system32\swflash.ocx=$(WinSysPath)
+D:\Paul\TEMP\CD\Internet Browser Source Code\Bookmarks.txt=$(AppPath)
+D:\Paul\TEMP\CD\Internet Browser Source Code\TIPOFDAY.txt=$(AppPath)
+D:\Paul\TEMP\CD\Internet Browser Source Code\history_backup.txt=$(AppPath)
+D:\Paul\TEMP\CD\Internet Browser Source Code\intro.swf=$(AppPath)
+D:\Paul\TEMP\CD\Internet Browser Source Code\READ_ME.txt=$(AppPath)
+D:\Paul\TEMP\CD\Internet Browser Source Code\history.txt=$(AppPath)
+
+[Package|Dep File 1|Configure Shared Files]
+Applicable=Yes
+D:\Paul\TEMP\CD\Internet Browser Source Code\IBv11.exe=No
+
+[Package|Dep File 1|Distribution]
+Type=single
+Size=
+Title=Internet Browser v1.10
+
+[Package|Dep File 1|IconGroups]
+Group0=Internet Browser v1.10
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Dep File 1|Internet Browser v1.10]
+Icon1=IBv11.exe
+Title1=Internet Browser v1.10
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Dep File 1|DepFile]
+DepCabFile=IBv11.CAB
+DepCabRun=IBv11.INF
+
+[Package|Dep File 1|Package]
+PackageFolder=D:\Paul\TEMP\CD\Install Files
+ProjectFolder=D:\Paul\TEMP\CD\Internet Browser Source Code
+ServerSideCab=
+File1=D:\Paul\TEMP\CD\Install Files\IBv11.DEP
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Standard Setup Package 2|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\Paul\TEMP\CD
+
+[Package|Standard Setup Package 2|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 2|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 2|Files Found]
+
+[Package|Standard Setup Package 2|Files Released]
+User.DLL=
+
+[Package|Standard Setup Package 2|Missing Dependency Information]
+C:\WINNT\system32\msdxm.ocx=
+C:\WINNT\system32\Macromed\Flash\swflash.ocx=
+C:\WINNT\system32\swflash.ocx=
+
+[Package|Standard Setup Package 2|Out-of-Date Dependency Information]
+
+[Package|Standard Setup Package 2|Files Added]
+d:\paul\temp\cd\internet browser source code\bookmarks.txt=
+d:\paul\temp\cd\internet browser source code\tipofday.txt=
+d:\paul\temp\cd\internet browser source code\history_backup.txt=
+d:\paul\temp\cd\internet browser source code\intro.swf=
+d:\paul\temp\cd\internet browser source code\read_me.txt=
+d:\paul\temp\cd\internet browser source code\history.txt=
+
+[Package|Standard Setup Package 2|Files Removed]
+
+[Package|Standard Setup Package 2|Files In Project]
+D:\Paul\TEMP\CD\Internet Browser Source Code\IBv11.exe=Yes
+C:\WINNT\system32\MSVBVM60.dll=Yes
+C:\WINNT\system32\OleAut32.dll=Yes
+C:\WINNT\system32\OlePro32.dll=Yes
+C:\WINNT\system32\ASYCFILT.DLL=Yes
+C:\WINNT\system32\StdOle2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINNT\system32\MSCOMCTL.OCX=Yes
+C:\WINNT\system32\MSWINSCK.OCX=Yes
+C:\WINNT\system32\COMCT332.OCX=Yes
+C:\WINNT\system32\COMDLG32.OCX=Yes
+C:\WINNT\system32\RICHTX32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINNT\system32\MSSTDFMT.DLL=Yes
+C:\WINNT\system32\MSINET.OCX=Yes
+C:\WINNT\system32\msdxm.ocx=Yes
+C:\WINNT\system32\comctl32.ocx=Yes
+C:\WINNT\system32\swflash.ocx=Yes
+D:\Paul\TEMP\CD\Internet Browser Source Code\Bookmarks.txt=Yes
+D:\Paul\TEMP\CD\Internet Browser Source Code\TIPOFDAY.txt=Yes
+D:\Paul\TEMP\CD\Internet Browser Source Code\history_backup.txt=Yes
+D:\Paul\TEMP\CD\Internet Browser Source Code\intro.swf=Yes
+D:\Paul\TEMP\CD\Internet Browser Source Code\READ_ME.txt=Yes
+D:\Paul\TEMP\CD\Internet Browser Source Code\history.txt=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Standard Setup Package 2|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 2|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 2|Install Locations]
+D:\Paul\TEMP\CD\Internet Browser Source Code\IBv11.exe=$(AppPath)
+C:\WINNT\system32\MSVBVM60.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\OleAut32.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\OlePro32.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\StdOle2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINNT\system32\Macromed\Flash\swflash.ocx=$(WinSysPath)
+C:\WINNT\system32\MSWINSCK.OCX=$(WinSysPath)
+C:\WINNT\system32\COMCT332.OCX=$(WinSysPath)
+C:\WINNT\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINNT\system32\RICHTX32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINNT\system32\MSINET.OCX=$(WinSysPath)
+C:\WINNT\system32\msdxm.ocx=$(WinSysPath)
+C:\WINNT\system32\comctl32.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\WINNT\system32\swflash.ocx=$(WinSysPath)
+D:\Paul\TEMP\CD\Internet Browser Source Code\Bookmarks.txt=$(AppPath)
+D:\Paul\TEMP\CD\Internet Browser Source Code\TIPOFDAY.txt=$(AppPath)
+D:\Paul\TEMP\CD\Internet Browser Source Code\history_backup.txt=$(AppPath)
+D:\Paul\TEMP\CD\Internet Browser Source Code\intro.swf=$(AppPath)
+D:\Paul\TEMP\CD\Internet Browser Source Code\READ_ME.txt=$(AppPath)
+D:\Paul\TEMP\CD\Internet Browser Source Code\history.txt=$(AppPath)
+
+[Package|Standard Setup Package 2|Configure Shared Files]
+Applicable=Yes
+D:\Paul\TEMP\CD\Internet Browser Source Code\IBv11.exe=No
+D:\Paul\TEMP\CD\Internet Browser Source Code\Bookmarks.txt=No
+D:\Paul\TEMP\CD\Internet Browser Source Code\TIPOFDAY.txt=No
+D:\Paul\TEMP\CD\Internet Browser Source Code\history_backup.txt=No
+D:\Paul\TEMP\CD\Internet Browser Source Code\intro.swf=No
+D:\Paul\TEMP\CD\Internet Browser Source Code\READ_ME.txt=No
+D:\Paul\TEMP\CD\Internet Browser Source Code\history.txt=No
+
+[Package|Standard Setup Package 2|Distribution]
+Type=single
+Size=
+Title=Internet Browser v1.10
+
+[Package|Standard Setup Package 2|DepFile]
+DepCabFile=IBv11.CAB
+DepCabRun=IBv11.INF
+
+[Package|Standard Setup Package 2|IconGroups]
+Group0=Internet Browser v1.10
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 2|Internet Browser v1.10]
+Icon1=IBv11.exe
+Title1=Internet Browser v1.10
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 2|Package]
+PackageFolder=D:\Paul\TEMP\CD
+ProjectFolder=D:\Paul\TEMP\CD\Internet Browser Source Code
+ServerSideCab=
+File1=D:\Paul\TEMP\CD\setup.exe
+File2=D:\Paul\TEMP\CD\Setup.Lst
+File3=D:\Paul\TEMP\CD\IBv11.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz

@@ -1,0 +1,24 @@
+Click though a few of these..they actually help
+IB (internet Browser) v1.1 Programmed by:                            Paul Cormie
+Bookmarks accepts either the full URL -> Http:\\www.domain.com or shorter URL -> www.domain.com
+The Bookmarks stay on top of IB v1.1 until the button in the toolbar is unpress
+Double Click on name of search engine to load it into the browser
+The Search stays on top of IB v1.1 until the button in the toolbar button is unpressed
+Try out the clock in the advanced textbox...it stays on top of IB v1.1
+The SPLASH screen displays you computer name, IP address, and Internet port
+The History gets cleared automatically every week
+Bookamrks only get edited when user opens bookmarks.txt
+Double-Click bookmarks to load them
+Double-Click Search engines to load them
+Visit my site and send me some feedback via the form!  www.paul_cormie.homestead.com
+To save a website in your bookmarks, enter URL in bottom box of the bookmarks form, and press ENTER.
+To open the complex text box press F11
+The time window will stay on top of all the other windows so you'll always know the date and time
+The source code is clearly commented
+Hani Karam did the history portion of this project.
+To view the source of the HTML page thats displayed in the IB v1.10 select it in the menu or...
+Click the button in the toolbar beside the font selection
+To select all the text displayed, click the button in the toolbar that looks like a circle with a dot in it
+The bookmarks are listed alphabetically
+Click on the HELP menu and it will prompt you to visit my site for technical assistance
+You can open new browsers by selection FILE/ open 
